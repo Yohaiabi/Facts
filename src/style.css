@@ -73,7 +73,7 @@ body {
   background-color: #5e554c94;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1005px) {
   /* body {
     padding: 32px 48px;
   } */
@@ -96,27 +96,27 @@ body {
 
 /* Only facts section scrolls*/
 #facts-section {
-  overflow: auto; /* מציג את הסקרולרים רק כשיש צורך */
+  overflow: auto; 
   padding-bottom: 40px;
 }
 
-/* עיצוב סקרולרים */
+/* Scrolls style */
 #facts-section::-webkit-scrollbar {
-  width: 8px; /* רוחב הסקרולר האנכי */
-  height: 8px; /* גובה הסקרולר האופקי */
+  width: 8px; 
+  height: 8px; 
 }
 
 #facts-section::-webkit-scrollbar-track {
-  background: #464141; /* צבע הרקע של מסלול הסקרולר */
+  background: #464141; 
 }
 
 #facts-section::-webkit-scrollbar-thumb {
-  background: #888; /* צבע הידית של הסקרולר */
-  border-radius: 4px; /* פינות עגולות לידית הסקרולר */
+  background: #888; 
+  border-radius: 4px; 
 }
 
 #facts-section::-webkit-scrollbar-thumb:hover {
-  background: #555; /* צבע כהה יותר בעת ריחוף על הידית */
+  background: #555; 
 }
 
 @media (max-width: 900px) {
@@ -267,19 +267,19 @@ footer {
   font-family: "Sono", sans-serif;
 }
 
-/*Loader animation*/
+/* Loader animation*/
 .loader-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.7); /* רקע מעט שקוף */
+  background-color: rgba(255, 255, 255, 0.7); 
   display: flex;
-  flex-direction: column; /* מאפשר לסדר את הספינר והטקסט בטור */
-  align-items: center; /* ממקם את הספינר והטקסט במרכז */
-  justify-content: center; /* ממקם את הספינר והטקסט במרכז */
-  z-index: 1000; /* שכבה קדמית כדי שה-loader יופיע מעל הכל */
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  z-index: 1000; 
 }
 
 .loader-spinner {
